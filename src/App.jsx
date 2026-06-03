@@ -3,6 +3,7 @@ import './App.css'
 import ProfileCard from './components/ProfileCard'
 import Flexbox from './components/Flexbox'
 import Product from './components/Product'
+import Theme from './components/Theme'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,7 +14,8 @@ function App() {
         <ProfileCard />
       </div> */}
       {/* <Flexbox /> */}
-      <Product />
+      {/* <Product /> */}
+      <Theme />
     </>
   )
 }

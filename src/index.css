@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+@custom-variant premium (&:where(.premium, .premium *));
+@custom-variant darkmode (&:where(.darkmode, .darkmode *));
+@custom-variant ocean (&:where(.ocean, .ocean *));
+
+@theme {
+  --color-brand: #f59e0b;
+  --color-surface: #fef3c7;
+}
+
