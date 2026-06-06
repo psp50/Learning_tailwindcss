@@ -9,3 +9,8 @@
   --color-surface: #fef3c7;
 }
 
+@utility prem {
+    background-color: red;
+    padding:4px;
+    border: 2px solid black;
+}
